@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-500 p-4">
+    <nav className="bg-gray-700 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <p className="text-white text-2xl font-bold">Fitness App</p>
+          <p className="text-white text-2xl font-bold">SIMPLEFIT</p>
         </Link>
         <ul className="flex space-x-4">
           <li>
